@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+      }
+
+      input {
+        margin-top: 20px;
+        padding: 5px;
+      }
+
+      ul {
+        margin: 100px auto;
+        width: 500px;
+        padding: 10px;
+        list-style: none;
+      }
+
+      li {
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      button {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Movie Name" name="movieName" />
+      <input type="text" placeholder="Movie Year" name="movieYear" />
+      <input type="text" placeholder="Movie Director" name="movieDirector" />
+      <input type="text" placeholder="Budget" name="budget" />
+      <input type="text" placeholder="Income" name="income" />
+      <input type="submit" value="Submit" />
+    </form>
+    <ul class="movieList"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>

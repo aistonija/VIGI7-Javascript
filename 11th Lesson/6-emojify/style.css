@@ -1,0 +1,10 @@
+body {
+  padding: 2rem;
+}
+
+label,
+select,
+input {
+  display: block;
+  margin-bottom: 1rem;
+}

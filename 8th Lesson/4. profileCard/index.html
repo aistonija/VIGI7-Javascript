@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="registerProfile">
+      <div class="form-group">
+        <input type="text" placeholder="Enter Your Full Name" name="fullName" />
+      </div>
+      <div class="form-group">
+        <input
+          type="url"
+          placeholder="Add link to your picture"
+          name="imgUrl"
+        />
+      </div>
+      <p>I like:</p>
+      <div class="form-group">
+        <input type="radio" id="salty" name="snacks" value="salty" />
+        <label for="salty">Salty Snacks</label>
+
+        <input type="radio" id="sweet" name="snacks" value="sweet" />
+        <label for="sweet">Sweet Snacks</label>
+
+        <input type="radio" id="both" name="snacks" value="both" />
+        <label for="both">I like both type snacks</label>
+      </div>
+
+      <div class="form-group">
+        <label for="bornSeason">I was born in:</label>
+        <select name="bornSeason" id="bornSeason">
+          <option value="">Choose one of the following:</option>
+          <option value="winter">Winter</option>
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="autumn">Autumn</option>
+        </select>
+      </div>
+
+      <p>Likes:</p>
+      <div class="form-group">
+        <label for="music">Music</label>
+        <input id="music" type="checkbox" name="music" value="music" />
+        <label for="sports">Sports</label>
+        <input id="sports" type="checkbox" name="sports" value="sports" />
+        <label for="lazy">Netflix&Chill</label>
+        <input id="lazy" type="checkbox" name="lazy" value="lazy" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="card">
+      <h2 id="profileName"></h2>
+      <img id="profileImg" src="" alt="" />
+      <p class="likeSnacks"></p>
+      <p class="bornInSeason"></p>
+      <ul class="generalLikes"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

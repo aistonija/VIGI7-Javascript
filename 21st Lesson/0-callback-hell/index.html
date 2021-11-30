@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(22, 22, 37);
+        text-align: center;
+      }
+
+      .go {
+        margin: 5rem;
+        background-color: white;
+        padding: 5rem;
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .go.circle {
+        border-radius: 50%;
+      }
+
+      .go.red {
+        background-color: red;
+      }
+
+      .go.purple {
+        background-color: purple;
+
+        color: white;
+      }
+
+      .go.fadeOut {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="go">Click Me</div>
+    <script src="main.js"></script>
+  </body>
+</html>

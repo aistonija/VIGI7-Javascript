@@ -1,0 +1,7 @@
+// 1. Delete Functionality
+
+// 2. Edit Functionality
+
+// 3. Add Images to the FlashCards
+
+// 4. Change Styling

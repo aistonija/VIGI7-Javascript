@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>FORMS-CAO</title>
+    <style>
+      input[type="text"] {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <hr />
+    <form id="movieForm">
+      <input type="number" placeholder="Your age" name="age" />
+      <input type="submit" value="show price" />
+    </form>
+    <h1 class="moviePrice"></h1>
+    <hr />
+    <form id="criminalForm">
+      <input type="number" placeholder="Your age" name="ageCriminal" />
+      <label for="criminalYes">Yes I am criminal</label>
+      <input type="radio" id="criminalYes" name="criminal" value="yes" />
+      <label for="criminalNo">No I am not a criminal</label>
+      <input type="radio" id="criminalNo" name="criminal" value="no" />
+      <input type="submit" value="are you going to Army?" />
+    </form>
+    <h2 class="criminalOutput"></h2>
+    <hr />
+    <form id="yearsWorked">
+      <input
+        type="text"
+        placeholder="years worked in company"
+        name="yearsInCompany"
+      />
+      <input type="submit" value="check Bonus" />
+    </form>
+    <h2 class="bonusMessage"></h2>
+    <hr />
+    <form id="leapYear">
+      <input type="text" placeholder="Enter Year" name="yearInput" />
+      <input type="submit" value="is It Leap Year?" />
+    </form>
+    <h2 class="leap"></h2>
+    <hr />
+    <form id="celsius">
+      <input type="text" placeholder="Enter Temp" name="temp" />
+      <input type="submit" value="show Farenheit" />
+    </form>
+    <h2 class="farenheit"></h2>
+    <hr />
+    <form id="list">
+      <input type="text" placeholder="Enter name" name="name" />
+      <input type="number" placeholder="Enter number" name="number" />
+      <input type="submit" value="print List" />
+    </form>
+    <ul class="listItems"></ul>
+    <hr />
+    <form id="tree">
+      <input type="text" placeholder="nu sauk" name="triangleSize" />
+      <input type="submit" value="padaryk Tai" />
+    </form>
+    <div class="triangle"></div>
+    <hr />
+    <form class="names-form">
+      <input
+        type="text"
+        id="namesBlur"
+        placeholder="enter name"
+        name="namesList"
+      />
+    </form>
+    <h2 class="names-list-output"></h2>
+    <hr />
+    <form class="minMax">
+      <input type="text" placeholder="first digit" name="firstNumber" />
+      <input type="text" placeholder="second digit" name="secondNumber" />
+      <input type="submit" value="show" />
+    </form>
+    <script src="forms.js"></script>
+  </body>
+</html>

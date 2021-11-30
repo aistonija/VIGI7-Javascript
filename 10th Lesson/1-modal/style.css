@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.show-modal {
+  width: 200px;
+  box-shadow: 0 2px 4px rgb(110, 110, 110);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto;
+}
+
+.modal-window {
+  width: 500px;
+  position: relative;
+  background-color: darkorange;
+  padding: 10px;
+  margin: 0 auto;
+  z-index: 1;
+  display: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+}

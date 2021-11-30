@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>RECAP</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      .grid {
+        width: 90%;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        padding: 1rem;
+        border: 1px solid black;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 50px);
+        gap: 1rem;
+      }
+
+      .cell {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hit F12 to open Console</h1>
+    <p class="paragraph first">Pirmas</p>
+    <p class="paragraph second">Antras</p>
+    <p class="paragraph third">Trecias</p>
+    <p class="paragraph fourth">Ketvirtas</p>
+
+    <button class="addOne">Add</button>
+    <h1 class="startPoint">0</h1>
+    <button class="changeBg">new Color!</button>
+
+    <div class="grid">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <!-- <script src="main.js"></script> -->
+    <script src="dom.js"></script>
+  </body>
+</html>
