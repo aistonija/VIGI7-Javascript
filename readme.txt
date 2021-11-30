@@ -1,8 +1,8 @@
-Iš pradžių tiesiog savo kodą dalindavausi chat'e, bet pasidarydavo nepatogu, tai pradėjau kelti sprendimus į codepen:
+Iš pradžių tiesiog savo kodą dalindavausi chat'e, bet pasidarydavo nepatogu, tai pradėjau kelti sprendimus į codepen.
 
 Taip pat pradžiai duodavau starting setup, t.y. HTML ir CSS, kuriuos aptardavom, o tada jau JS darydavo patys. 
 
-Šitoj nuorodoj pagal temas kartais dėdavau. 
+Nuorodos pagal eitas temas.
 
 8 tema - https://codepen.io/collection/OLPYqa
 9 tema - https://codepen.io/collection/GoKarB
